@@ -39,11 +39,13 @@ class MainActivity : AppCompatActivity() {
                     composable("puppies") {
                         PuppyListScreen(navController = navController)
                     }
-                    composable("puppies/{puppyId}",
+                    composable(
+                        "puppies/{puppyId}",
                         arguments = listOf(navArgument("puppyId") { type = NavType.IntType })
                     ) { navBackStackEntry ->
                         navBackStackEntry.arguments?.getInt("puppyId")?.let { id ->
-                            PuppyDetailScreen(navController = navController,
+                            PuppyDetailScreen(
+                                navController = navController,
                                 puppyId = id,
                             )
                         }
