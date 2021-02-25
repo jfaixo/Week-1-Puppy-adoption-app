@@ -1,4 +1,4 @@
-# Put title of your app here
+# Adopt a Puppy
 
 <!--- Replace <OWNER> with your Github Username and <REPOSITORY> with the name of your repository. -->
 <!--- You can find both of these in the url bar when you open your repository in github. -->
@@ -7,11 +7,12 @@
 
 ## :scroll: Description
 <!--- Describe your app in one or two sentences -->
-
+Very small and quick master/Detail app done with Jetpack Compose :)
 
 ## :bulb: Motivation and Context
 <!--- Optionally point readers to interesting parts of your submission. -->
 <!--- What are you especially proud of? -->
+In the context of the "Android Dev Challenge: Jetpack Compose", first week ;)
 
 
 ## :camera_flash: Screenshots
